@@ -1,5 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
 
+/*********** GENERAL *************/
+
 *{
   font-family: 'Montserrat';
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*********** HEADER *************/
+
+header{
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: 700;
+}
+
+header a{
+  color: #000000;
+  transition: 300ms all;
+}
+
+header a:hover{
+  color: #d6553f;
+}
+
+.header-nav{
+  width: 25%;
+}
+
+.header-nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+/*********** HERO AREA *************/
+
+#hero{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(117, 117, 122);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-principal{
+  width: 75%;
+  height: 80vh;
+  background-color: rgb(177, 177, 185);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.hero-principal h1{
+  font-size: 4rem;
+}
+
+.hero-principal p{
+  width: 56.5%;
+  text-align: justify;
 }
